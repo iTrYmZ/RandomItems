@@ -382,6 +382,46 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "EmeraldArmor",
+      "type": "armor",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EmeraldArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EmeraldArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EmeraldArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EmeraldArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -390,12 +430,14 @@
     "en_us": {
       "item.emeraldshovel.name": "Emerald Shovel",
       "item.lavaobsidianarmorhelmet.name": "Lava Obsidian Helmet",
+      "item.emeraldarmorboots.name": "Emerald Boots",
       "tile.lavaobsidian.name": "Lava Obsidian",
       "itemGroup.tabrandomitems": "Random Items",
       "item.lavaobsidianarmorbody.name": "Lava Obsidian Chestplate",
       "item.diamondstick.name": "Diamond Stick",
       "item.goldstick.name": "Gold Stick",
       "item.lavasword.name": "Lava Sword",
+      "item.emeraldarmorlegs.name": "Emerald Leggings",
       "item.emeraldsword.name": "Emerald Sword",
       "fluid.angelicwater": "AngelicWater",
       "item.coalstick.name": "Coal Stick",
@@ -405,23 +447,27 @@
       "tile.megaobsidian.name": "Mega Obsidian",
       "item.wateramulet.name": "Water Amulet",
       "item.ironstick.name": "Iron Stick",
+      "item.emeraldarmorbody.name": "Emerald Chestplate",
       "item.redstonestick.name": "Redstone Stick",
       "item.lavapickaxe.name": "Lava Pickaxe",
       "item.emeraldpickaxe.name": "Emerald Pickaxe",
       "item.megaobsidianstick.name": "Mega Obsidian Stick",
       "item.lapisstick.name": "Lapis Stick",
       "item.lavaobsidianarmorboots.name": "Lava Obsidian Boots",
+      "item.emeraldarmorhelmet.name": "Emerald Helmet",
       "item.emeraldhoe.name": "Emerald Hoe"
     },
     "fr_fr": {
       "item.emeraldshovel.name": "Emerald Shovel",
       "item.lavaobsidianarmorhelmet.name": "Casque en Obsidienne de Lave",
+      "item.emeraldarmorboots.name": "Emerald Boots",
       "tile.lavaobsidian.name": "Obsidienne de Lave",
       "itemGroup.tabrandomitems": "RandomItems",
       "item.lavaobsidianarmorbody.name": "Plastron en Obsidienne de Lave",
       "item.diamondstick.name": "Bâton en Diamant",
       "item.goldstick.name": "Bâton en Or",
       "item.lavasword.name": "Épée en Lave",
+      "item.emeraldarmorlegs.name": "Emerald Leggings",
       "item.emeraldsword.name": "Emerald Sword",
       "fluid.angelicwater": "Eau Angélique",
       "item.coalstick.name": "Bâton en Charbon",
@@ -431,12 +477,14 @@
       "tile.megaobsidian.name": "Mega Obsidienne",
       "item.wateramulet.name": "Amulette de l\u0027Eau",
       "item.ironstick.name": "Bâton en Fer",
+      "item.emeraldarmorbody.name": "Emerald Chestplate",
       "item.redstonestick.name": "Bâton en Redstone",
       "item.lavapickaxe.name": "Pioche en Lave",
       "item.emeraldpickaxe.name": "Emerald Pickaxe",
       "item.megaobsidianstick.name": "Bâton en Mega Obsidienne",
       "item.lapisstick.name": "Bâton en Lapis",
       "item.lavaobsidianarmorboots.name": "Bottes en Obsidienne de Lave",
+      "item.emeraldarmorhelmet.name": "Emerald Helmet",
       "item.emeraldhoe.name": "Emerald Hoe"
     }
   },
