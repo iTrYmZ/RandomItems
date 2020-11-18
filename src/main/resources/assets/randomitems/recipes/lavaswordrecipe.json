@@ -2,9 +2,9 @@
   "group": "randomitems",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012",
-    " 4 ",
-    " 7 "
+    "0",
+    "1",
+    "2"
   ],
   "key": {
     "0": {
@@ -14,17 +14,11 @@
       "item": "randomitems:lavaobsidianfragment"
     },
     "2": {
-      "item": "randomitems:lavaobsidianfragment"
-    },
-    "4": {
-      "item": "randomitems:megaobsidianstick"
-    },
-    "7": {
       "item": "randomitems:megaobsidianstick"
     }
   },
   "result": {
-    "item": "randomitems:lavapickaxe",
+    "item": "randomitems:lavasword",
     "count": 1
   }
 }

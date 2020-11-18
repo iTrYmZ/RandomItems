@@ -9,10 +9,7 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:LavaObsidianFragment"
-      },
-      {
-        "value": "CUSTOM:LavaObsidianFragment"
+        "value": ""
       },
       {
         "value": "CUSTOM:LavaObsidianFragment"
@@ -21,7 +18,10 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:MegaObsidianStick"
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LavaObsidianFragment"
       },
       {
         "value": ""
@@ -37,9 +37,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:LavaPickaxe"
+      "value": "CUSTOM:LavaSword"
     },
-    "name": "lavapickaxerecipe",
+    "name": "lavaswordrecipe",
     "namespace": "mod"
   }
 }
