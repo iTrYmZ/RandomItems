@@ -1,0 +1,43 @@
+{
+  "group": "randomitems",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:lead"
+    },
+    "1": {
+      "item": "randomitems:megaobsidianstick"
+    },
+    "2": {
+      "item": "minecraft:lead"
+    },
+    "3": {
+      "item": "randomitems:megaobsidianstick"
+    },
+    "4": {
+      "item": "minecraft:prismarine",
+      "data": 32767
+    },
+    "5": {
+      "item": "randomitems:megaobsidianstick"
+    },
+    "6": {
+      "item": "minecraft:nether_star"
+    },
+    "7": {
+      "item": "randomitems:megaobsidianstick"
+    },
+    "8": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "randomitems:wateramulet",
+    "count": 1
+  }
+}

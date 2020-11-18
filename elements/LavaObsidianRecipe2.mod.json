@@ -15,6 +15,9 @@
         "value": "CUSTOM:LavaObsidianFragment"
       },
       {
+        "value": ""
+      },
+      {
         "value": "CUSTOM:LavaObsidianFragment"
       },
       {
@@ -22,9 +25,6 @@
       },
       {
         "value": ""
-      },
-      {
-        "value": "CUSTOM:LavaObsidianFragment"
       },
       {
         "value": ""
@@ -37,9 +37,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:LavaObsidianArmor.helmet"
+      "value": "CUSTOM:LavaObsidian"
     },
-    "name": "lavaobsidianhelmetrecipe",
+    "name": "lavaobsidianrecipe2",
     "namespace": "mod"
   }
 }

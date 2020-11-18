@@ -2,14 +2,11 @@
   "group": "randomitems",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012",
+    "0 2",
     "3 5"
   ],
   "key": {
     "0": {
-      "item": "randomitems:lavaobsidianfragment"
-    },
-    "1": {
       "item": "randomitems:lavaobsidianfragment"
     },
     "2": {
@@ -23,7 +20,7 @@
     }
   },
   "result": {
-    "item": "randomitems:lavaobsidianarmorhelmet",
+    "item": "randomitems:lavaobsidianarmorboots",
     "count": 1
   }
 }

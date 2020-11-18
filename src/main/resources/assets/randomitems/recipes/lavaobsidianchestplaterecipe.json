@@ -2,14 +2,12 @@
   "group": "randomitems",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012",
-    "3 5"
+    "0 2",
+    "345",
+    "678"
   ],
   "key": {
     "0": {
-      "item": "randomitems:lavaobsidianfragment"
-    },
-    "1": {
       "item": "randomitems:lavaobsidianfragment"
     },
     "2": {
@@ -18,12 +16,24 @@
     "3": {
       "item": "randomitems:lavaobsidianfragment"
     },
+    "4": {
+      "item": "randomitems:lavaobsidianfragment"
+    },
     "5": {
+      "item": "randomitems:lavaobsidianfragment"
+    },
+    "6": {
+      "item": "randomitems:lavaobsidianfragment"
+    },
+    "7": {
+      "item": "randomitems:lavaobsidianfragment"
+    },
+    "8": {
       "item": "randomitems:lavaobsidianfragment"
     }
   },
   "result": {
-    "item": "randomitems:lavaobsidianarmorhelmet",
+    "item": "randomitems:lavaobsidianarmorbody",
     "count": 1
   }
 }

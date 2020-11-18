@@ -1,0 +1,13 @@
+{
+  "group": "randomitems",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "randomitems:lavaobsidian"
+    }
+  ],
+  "result": {
+    "item": "randomitems:lavaobsidianfragment",
+    "count": 4
+  }
+}

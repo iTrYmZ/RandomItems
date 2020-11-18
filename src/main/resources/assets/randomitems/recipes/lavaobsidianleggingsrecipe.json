@@ -3,7 +3,8 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "012",
-    "3 5"
+    "3 5",
+    "6 8"
   ],
   "key": {
     "0": {
@@ -20,10 +21,16 @@
     },
     "5": {
       "item": "randomitems:lavaobsidianfragment"
+    },
+    "6": {
+      "item": "randomitems:lavaobsidianfragment"
+    },
+    "8": {
+      "item": "randomitems:lavaobsidianfragment"
     }
   },
   "result": {
-    "item": "randomitems:lavaobsidianarmorhelmet",
+    "item": "randomitems:lavaobsidianarmorlegs",
     "count": 1
   }
 }

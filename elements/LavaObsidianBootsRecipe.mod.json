@@ -9,10 +9,19 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:LavaObsidianFragment"
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
       },
       {
         "value": "CUSTOM:LavaObsidianFragment"
+      },
+      {
+        "value": ""
       },
       {
         "value": "CUSTOM:LavaObsidianFragment"
@@ -25,21 +34,12 @@
       },
       {
         "value": "CUSTOM:LavaObsidianFragment"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:LavaObsidianArmor.helmet"
+      "value": "CUSTOM:LavaObsidianArmor.boots"
     },
-    "name": "lavaobsidianhelmetrecipe",
+    "name": "lavaobsidianbootsrecipe",
     "namespace": "mod"
   }
 }

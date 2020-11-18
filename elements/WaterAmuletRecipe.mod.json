@@ -9,37 +9,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:LavaObsidianFragment"
+        "value": "Items.LEAD"
       },
       {
-        "value": "CUSTOM:LavaObsidianFragment"
+        "value": "CUSTOM:MegaObsidianStick"
       },
       {
-        "value": "CUSTOM:LavaObsidianFragment"
+        "value": "Items.LEAD"
       },
       {
-        "value": "CUSTOM:LavaObsidianFragment"
+        "value": "CUSTOM:MegaObsidianStick"
       },
       {
-        "value": ""
+        "value": "Blocks.PRISMARINE"
       },
       {
-        "value": "CUSTOM:LavaObsidianFragment"
+        "value": "CUSTOM:MegaObsidianStick"
       },
       {
-        "value": ""
+        "value": "Items.NETHER_STAR"
       },
       {
-        "value": ""
+        "value": "CUSTOM:MegaObsidianStick"
       },
       {
-        "value": ""
+        "value": "Items.IRON_INGOT"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:LavaObsidianArmor.helmet"
+      "value": "CUSTOM:WaterAmulet"
     },
-    "name": "lavaobsidianhelmetrecipe",
+    "name": "wateramuletrecipe",
     "namespace": "mod"
   }
 }

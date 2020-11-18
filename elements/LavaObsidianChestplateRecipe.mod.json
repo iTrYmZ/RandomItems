@@ -12,6 +12,12 @@
         "value": "CUSTOM:LavaObsidianFragment"
       },
       {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LavaObsidianFragment"
+      },
+      {
         "value": "CUSTOM:LavaObsidianFragment"
       },
       {
@@ -21,25 +27,19 @@
         "value": "CUSTOM:LavaObsidianFragment"
       },
       {
-        "value": ""
+        "value": "CUSTOM:LavaObsidianFragment"
       },
       {
         "value": "CUSTOM:LavaObsidianFragment"
       },
       {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
+        "value": "CUSTOM:LavaObsidianFragment"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:LavaObsidianArmor.helmet"
+      "value": "CUSTOM:LavaObsidianArmor.body"
     },
-    "name": "lavaobsidianhelmetrecipe",
+    "name": "lavaobsidianchestplaterecipe",
     "namespace": "mod"
   }
 }
