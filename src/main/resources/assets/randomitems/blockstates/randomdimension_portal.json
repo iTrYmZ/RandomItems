@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "randomitems:randomdimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "randomitems:randomdimension_portal_ns"
+    },
+    "inventory": {
+      "model": "randomitems:randomdimension_portal_ns"
+    }
+  }
+}

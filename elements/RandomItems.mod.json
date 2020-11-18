@@ -2,10 +2,10 @@
   "_fv": 6,
   "_type": "tab",
   "definition": {
-    "name": "Random Items",
+    "name": "RandomItems",
     "icon": {
-      "value": "Blocks.MAGMA"
+      "value": "CUSTOM:LavaObsidianFragment"
     },
-    "showSearch": false
+    "showSearch": true
   }
 }

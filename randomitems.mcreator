@@ -1,5 +1,7 @@
 {
-  "id_map": {},
+  "id_map": {
+    "DIMENSION": 1
+  },
   "mod_elements": [
     {
       "name": "RandomItems",
@@ -181,14 +183,6 @@
       "name": "AngelicWater",
       "type": "fluid",
       "sortid": 22,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "AngelicWaterRecipe",
-      "type": "recipe",
-      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -389,7 +383,13 @@
       "sortid": 44,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     },
     {
       "name": "EmeraldArmorHelmetRecipe",
@@ -430,6 +430,24 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "LavaBiome",
+      "type": "biome",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RandomDimension",
+      "type": "dimension",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "1": 1
+      }
     }
   ],
   "variable_elements": [],
@@ -440,8 +458,9 @@
       "item.lavaobsidianarmorhelmet.name": "Lava Obsidian Helmet",
       "item.emeraldarmorboots.name": "Emerald Boots",
       "tile.lavaobsidian.name": "Lava Obsidian",
-      "itemGroup.tabrandomitems": "Random Items",
+      "itemGroup.tabrandomitems": "RandomItems",
       "item.lavaobsidianarmorbody.name": "Lava Obsidian Chestplate",
+      "item.randomdimension.name": "RandomDimension Activator",
       "item.diamondstick.name": "Diamond Stick",
       "item.goldstick.name": "Gold Stick",
       "item.lavasword.name": "Lava Sword",
@@ -466,34 +485,35 @@
       "item.emeraldhoe.name": "Emerald Hoe"
     },
     "fr_fr": {
-      "item.emeraldshovel.name": "Emerald Shovel",
+      "item.emeraldshovel.name": "Pelle en Émeraude",
       "item.lavaobsidianarmorhelmet.name": "Casque en Obsidienne de Lave",
-      "item.emeraldarmorboots.name": "Emerald Boots",
+      "item.emeraldarmorboots.name": "Botte en Émeraude",
       "tile.lavaobsidian.name": "Obsidienne de Lave",
       "itemGroup.tabrandomitems": "RandomItems",
       "item.lavaobsidianarmorbody.name": "Plastron en Obsidienne de Lave",
+      "item.randomdimension.name": "Activateur de la RandomDimension",
       "item.diamondstick.name": "Bâton en Diamant",
       "item.goldstick.name": "Bâton en Or",
       "item.lavasword.name": "Épée en Lave",
-      "item.emeraldarmorlegs.name": "Emerald Leggings",
-      "item.emeraldsword.name": "Emerald Sword",
+      "item.emeraldarmorlegs.name": "Jambières en Émeraude",
+      "item.emeraldsword.name": "Épée en Émeraude",
       "fluid.angelicwater": "Eau Angélique",
       "item.coalstick.name": "Bâton en Charbon",
       "item.lavaobsidianarmorlegs.name": "Jambières en Obsidienne de Lave",
-      "item.lavaobsidianfragment.name": "Lava Obsidian Fragment",
-      "item.emeraldaxe.name": "Emerald Axe",
+      "item.lavaobsidianfragment.name": "Fragment en Obsidienne de Lave",
+      "item.emeraldaxe.name": "Hache en Émeraude",
       "tile.megaobsidian.name": "Mega Obsidienne",
       "item.wateramulet.name": "Amulette de l\u0027Eau",
       "item.ironstick.name": "Bâton en Fer",
-      "item.emeraldarmorbody.name": "Emerald Chestplate",
+      "item.emeraldarmorbody.name": "Plastron en Émeraude",
       "item.redstonestick.name": "Bâton en Redstone",
       "item.lavapickaxe.name": "Pioche en Lave",
-      "item.emeraldpickaxe.name": "Emerald Pickaxe",
+      "item.emeraldpickaxe.name": "Pioche en Émeraude",
       "item.megaobsidianstick.name": "Bâton en Mega Obsidienne",
       "item.lapisstick.name": "Bâton en Lapis",
       "item.lavaobsidianarmorboots.name": "Bottes en Obsidienne de Lave",
-      "item.emeraldarmorhelmet.name": "Emerald Helmet",
-      "item.emeraldhoe.name": "Emerald Hoe"
+      "item.emeraldarmorhelmet.name": "Casque en Émeraude",
+      "item.emeraldhoe.name": "Houe en Émeraude"
     }
   },
   "workspaceSettings": {
