@@ -1,0 +1,307 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "RandomItems",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CoalStick",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "IronStick",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GoldStick",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RedstoneStick",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LapisStick",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DiamondStick",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MegaObsidian",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MegaObsidianStick",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LavaObsidian",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LavaPickaxe",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CoalStickRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "IronStickRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GoldStickRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RedstoneStickRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LapisStickRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DiamondStickRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MegaObsidianStickRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MegaObsidianRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LavaObsidianRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LavaPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LavaSword",
+      "type": "tool",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AngelicWater",
+      "type": "fluid",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AngelicWaterRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "WaterAmulet",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "WaterAmuletEffect",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LavaObsidianArmor",
+      "type": "armor",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "LavaObsidianHelmetRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "tile.megaobsidian.name": "Mega Obsidian",
+      "item.lavaobsidianarmorhelmet.name": "Lava Obsidian Helmet",
+      "tile.lavaobsidian.name": "Lava Obsidian",
+      "item.wateramulet.name": "Water Amulet",
+      "itemGroup.tabrandomitems": "Random Items",
+      "item.ironstick.name": "Iron Stick",
+      "item.lavaobsidianarmorbody.name": "Lava Obsidian Chestplate",
+      "item.redstonestick.name": "Redstone Stick",
+      "item.lavapickaxe.name": "Lava Pickaxe",
+      "item.diamondstick.name": "Diamond Stick",
+      "item.goldstick.name": "Gold Stick",
+      "item.lavasword.name": "Lava Sword",
+      "item.megaobsidianstick.name": "Mega Obsidian Stick",
+      "fluid.angelicwater": "AngelicWater",
+      "item.lapisstick.name": "Lapis Stick",
+      "item.coalstick.name": "Coal Stick",
+      "item.lavaobsidianarmorboots.name": "Lava Obsidian Boots",
+      "item.lavaobsidianarmorlegs.name": "Lava Obsidian Leggings"
+    },
+    "fr_fr": {
+      "tile.megaobsidian.name": "Mega Obsidienne",
+      "item.lavaobsidianarmorhelmet.name": "Casque en Obsidienne de Lave",
+      "tile.lavaobsidian.name": "Obsidienne de Lave",
+      "item.wateramulet.name": "Amulette de l\u0027Eau",
+      "itemGroup.tabrandomitems": "RandomItems",
+      "item.ironstick.name": "Bâton en Fer",
+      "item.lavaobsidianarmorbody.name": "Plastron en Obsidienne de Lave",
+      "item.redstonestick.name": "Bâton en Redstone",
+      "item.lavapickaxe.name": "Pioche en Lave",
+      "item.diamondstick.name": "Bâton en Diamant",
+      "item.goldstick.name": "Bâton en Or",
+      "item.lavasword.name": "Épée en Lave",
+      "item.megaobsidianstick.name": "Bâton en Mega Obsidienne",
+      "fluid.angelicwater": "Eau Angélique",
+      "item.lapisstick.name": "Bâton en Lapis",
+      "item.coalstick.name": "Bâton en Charbon",
+      "item.lavaobsidianarmorboots.name": "Bottes en Obsidienne de Lave",
+      "item.lavaobsidianarmorlegs.name": "Jambières en Obsidienne de Lave"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "randomitems",
+    "modName": "RandomItems",
+    "version": "1.2.9",
+    "description": "A mod adding all of items I want to add ",
+    "author": "iTrYmZ",
+    "websiteURL": "https://iDontHaveAnyWebSiteSorry.Nop",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "randomitems",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "1.12.2",
+    "credits": "Made by iTrYmZ. Credit if you\u0027re playing with on a video",
+    "modElementsPackage": "itrymz.randomitems",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000214217
+}

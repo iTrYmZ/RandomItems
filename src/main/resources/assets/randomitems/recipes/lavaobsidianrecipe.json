@@ -1,0 +1,42 @@
+{
+  "group": "randomitems",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "randomitems:megaobsidian"
+    },
+    "1": {
+      "item": "minecraft:lava_bucket"
+    },
+    "2": {
+      "item": "randomitems:megaobsidian"
+    },
+    "3": {
+      "item": "minecraft:diamond_block"
+    },
+    "4": {
+      "item": "minecraft:nether_star"
+    },
+    "5": {
+      "item": "minecraft:diamond_block"
+    },
+    "6": {
+      "item": "randomitems:megaobsidian"
+    },
+    "7": {
+      "item": "minecraft:lava_bucket"
+    },
+    "8": {
+      "item": "randomitems:megaobsidian"
+    }
+  },
+  "result": {
+    "item": "randomitems:lavaobsidian",
+    "count": 1
+  }
+}

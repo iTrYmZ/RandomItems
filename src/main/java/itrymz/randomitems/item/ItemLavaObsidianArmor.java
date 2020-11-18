@@ -1,0 +1,57 @@
+
+package itrymz.randomitems.item;
+
+import net.minecraftforge.fml.relauncher.SideOnly;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.common.util.EnumHelper;
+import net.minecraftforge.client.model.ModelLoader;
+import net.minecraftforge.client.event.ModelRegistryEvent;
+
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.item.ItemArmor;
+import net.minecraft.item.Item;
+import net.minecraft.inventory.EntityEquipmentSlot;
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+
+import itrymz.randomitems.creativetab.TabRandomItems;
+import itrymz.randomitems.ElementsRandomItems;
+
+@ElementsRandomItems.ModElement.Tag
+public class ItemLavaObsidianArmor extends ElementsRandomItems.ModElement {
+	@GameRegistry.ObjectHolder("randomitems:lavaobsidianarmorhelmet")
+	public static final Item helmet = null;
+	@GameRegistry.ObjectHolder("randomitems:lavaobsidianarmorbody")
+	public static final Item body = null;
+	@GameRegistry.ObjectHolder("randomitems:lavaobsidianarmorlegs")
+	public static final Item legs = null;
+	@GameRegistry.ObjectHolder("randomitems:lavaobsidianarmorboots")
+	public static final Item boots = null;
+	public ItemLavaObsidianArmor(ElementsRandomItems instance) {
+		super(instance, 26);
+	}
+
+	@Override
+	public void initElements() {
+		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("LAVAOBSIDIANARMOR", "randomitems:lavaobsidianarmor", 500,
+				new int[]{12, 15, 16, 12}, 9,
+				(net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation("")), 0f);
+		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.HEAD).setUnlocalizedName("lavaobsidianarmorhelmet")
+				.setRegistryName("lavaobsidianarmorhelmet").setCreativeTab(TabRandomItems.tab));
+		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.CHEST).setUnlocalizedName("lavaobsidianarmorbody")
+				.setRegistryName("lavaobsidianarmorbody").setCreativeTab(TabRandomItems.tab));
+		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.LEGS).setUnlocalizedName("lavaobsidianarmorlegs")
+				.setRegistryName("lavaobsidianarmorlegs").setCreativeTab(TabRandomItems.tab));
+		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.FEET).setUnlocalizedName("lavaobsidianarmorboots")
+				.setRegistryName("lavaobsidianarmorboots").setCreativeTab(TabRandomItems.tab));
+	}
+
+	@SideOnly(Side.CLIENT)
+	@Override
+	public void registerModels(ModelRegistryEvent event) {
+		ModelLoader.setCustomModelResourceLocation(helmet, 0, new ModelResourceLocation("randomitems:lavaobsidianarmorhelmet", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(body, 0, new ModelResourceLocation("randomitems:lavaobsidianarmorbody", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(legs, 0, new ModelResourceLocation("randomitems:lavaobsidianarmorlegs", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(boots, 0, new ModelResourceLocation("randomitems:lavaobsidianarmorboots", "inventory"));
+	}
+}

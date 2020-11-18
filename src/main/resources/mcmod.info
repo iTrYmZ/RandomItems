@@ -1,0 +1,20 @@
+[
+  {
+    "modid": "randomitems",
+    "name": "RandomItems",
+    "description": "A mod adding all of items I want to add ",
+    "version": "1.2.9",
+    "credits": "Made by iTrYmZ. Credit if you're playing with on a video",
+    "logoFile": "assets/randomitems/textures/randomitems.png",
+    "mcversion": "1.12.2",
+    "url": "https://iDontHaveAnyWebSiteSorry.Nop",
+    "updateUrl": "",
+    "authorList": [
+      "iTrYmZ"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "requiredMods": [],
+    "useDependencyInformation": "true"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "randomitems:blocks/lavaobsidian",
+    "particle": "randomitems:blocks/lavaobsidian"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "_fv": 6,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "lavaobsidianarmor_head",
+    "enableBody": true,
+    "textureBody": "lavaobsidianarmor_body",
+    "enableLeggings": true,
+    "textureLeggings": "lavaobsidianarmor_leggings",
+    "enableBoots": true,
+    "textureBoots": "lavaobsidianarmor_boots",
+    "creativeTab": {
+      "value": "CUSTOM:RandomItems"
+    },
+    "armorTextureFile": "lavaobsidianarmor",
+    "helmetName": "Lava Obsidian Helmet",
+    "bodyName": "Lava Obsidian Chestplate",
+    "leggingsName": "Lava Obsidian Leggings",
+    "bootsName": "Lava Obsidian Boots",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 500,
+    "damageValueHelmet": 12,
+    "damageValueBody": 16,
+    "damageValueLeggings": 15,
+    "damageValueBoots": 12,
+    "enchantability": 9,
+    "toughness": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:LavaObsidian"
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "randomitems",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "randomitems:megaobsidian"
+    },
+    "1": {
+      "item": "randomitems:megaobsidian"
+    },
+    "2": {
+      "item": "randomitems:megaobsidian"
+    },
+    "3": {
+      "item": "randomitems:megaobsidian"
+    },
+    "4": {
+      "item": "randomitems:diamondstick"
+    },
+    "5": {
+      "item": "randomitems:megaobsidian"
+    },
+    "6": {
+      "item": "randomitems:megaobsidian"
+    },
+    "7": {
+      "item": "randomitems:megaobsidian"
+    },
+    "8": {
+      "item": "randomitems:megaobsidian"
+    }
+  },
+  "result": {
+    "item": "randomitems:megaobsidianstick",
+    "count": 1
+  }
+}

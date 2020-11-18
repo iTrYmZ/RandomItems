@@ -1,0 +1,30 @@
+{
+  "group": "randomitems",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "randomitems:lavaobsidian"
+    },
+    "1": {
+      "item": "randomitems:lavaobsidian"
+    },
+    "2": {
+      "item": "randomitems:lavaobsidian"
+    },
+    "4": {
+      "item": "randomitems:megaobsidianstick"
+    },
+    "7": {
+      "item": "randomitems:megaobsidianstick"
+    }
+  },
+  "result": {
+    "item": "randomitems:lavapickaxe",
+    "count": 1
+  }
+}
