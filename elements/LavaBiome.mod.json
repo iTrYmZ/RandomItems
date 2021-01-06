@@ -4,10 +4,10 @@
   "definition": {
     "name": "Lava Biome",
     "groundBlock": {
-      "value": "CUSTOM:LavaObsidian"
+      "value": "Blocks.GRASS"
     },
     "undergroundBlock": {
-      "value": "CUSTOM:MegaObsidian"
+      "value": "Blocks.OBSIDIAN"
     },
     "generateLakes": true,
     "treeType": 0,
@@ -32,7 +32,7 @@
       "falpha": 0.0
     },
     "grassColor": {
-      "value": -16777216,
+      "value": -65536,
       "falpha": 0.0
     },
     "waterColor": {

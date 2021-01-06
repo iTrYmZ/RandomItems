@@ -6,11 +6,10 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 
 import net.minecraft.world.gen.feature.WorldGenAbstractTree;
 import net.minecraft.world.biome.Biome;
+import net.minecraft.init.Blocks;
 
 import java.util.Random;
 
-import itrymz.randomitems.block.BlockMegaObsidian;
-import itrymz.randomitems.block.BlockLavaObsidian;
 import itrymz.randomitems.ElementsRandomItems;
 
 @ElementsRandomItems.ModElement.Tag
@@ -33,8 +32,8 @@ public class BiomeLavaBiome extends ElementsRandomItems.ModElement {
 		public BiomeGenCustom() {
 			super(new Biome.BiomeProperties("Lava Biome").setRainfall(0.5F).setBaseHeight(0.1F).setHeightVariation(0.2F).setTemperature(0.5F));
 			setRegistryName("lavabiome");
-			topBlock = BlockLavaObsidian.block.getDefaultState();
-			fillerBlock = BlockMegaObsidian.block.getDefaultState();
+			topBlock = Blocks.GRASS.getDefaultState();
+			fillerBlock = Blocks.OBSIDIAN.getDefaultState();
 			decorator.generateFalls = true;
 			decorator.treesPerChunk = 3;
 			decorator.flowersPerChunk = 4;

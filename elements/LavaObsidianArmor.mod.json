@@ -10,6 +10,9 @@
     "textureLeggings": "lavaobsidianarmor_leggings",
     "enableBoots": true,
     "textureBoots": "lavaobsidianarmor_boots",
+    "onHelmetTick": {
+      "name": "NightVisionEffect"
+    },
     "creativeTab": {
       "value": "CUSTOM:RandomItems"
     },

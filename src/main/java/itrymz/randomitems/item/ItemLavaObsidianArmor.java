@@ -8,12 +8,16 @@ import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 
+import net.minecraft.world.World;
 import net.minecraft.util.ResourceLocation;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.Item;
 import net.minecraft.inventory.EntityEquipmentSlot;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
+import itrymz.randomitems.procedure.ProcedureNightVisionEffect;
 import itrymz.randomitems.creativetab.TabRandomItems;
 import itrymz.randomitems.ElementsRandomItems;
 
@@ -36,8 +40,20 @@ public class ItemLavaObsidianArmor extends ElementsRandomItems.ModElement {
 		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("LAVAOBSIDIANARMOR", "randomitems:lavaobsidianarmor", 500,
 				new int[]{12, 15, 16, 12}, 9,
 				(net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation("")), 0f);
-		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.HEAD).setUnlocalizedName("lavaobsidianarmorhelmet")
-				.setRegistryName("lavaobsidianarmorhelmet").setCreativeTab(TabRandomItems.tab));
+		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.HEAD) {
+			@Override
+			public void onArmorTick(World world, EntityPlayer entity, ItemStack itemstack) {
+				super.onArmorTick(world, entity, itemstack);
+				int x = (int) entity.posX;
+				int y = (int) entity.posY;
+				int z = (int) entity.posZ;
+				{
+					java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+					$_dependencies.put("entity", entity);
+					ProcedureNightVisionEffect.executeProcedure($_dependencies);
+				}
+			}
+		}.setUnlocalizedName("lavaobsidianarmorhelmet").setRegistryName("lavaobsidianarmorhelmet").setCreativeTab(TabRandomItems.tab));
 		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.CHEST).setUnlocalizedName("lavaobsidianarmorbody")
 				.setRegistryName("lavaobsidianarmorbody").setCreativeTab(TabRandomItems.tab));
 		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.LEGS).setUnlocalizedName("lavaobsidianarmorlegs")
