@@ -1,6 +1,6 @@
-# RandomItems
+# RandomItems by [apixon](https://github.com/Apix0n)
 
-A mod created by [apixon](https://github.com/Apix0n) adding everything I want to add to Minecraft like dimensions, new blocks and items.
+A mod adding everything I want to add to Minecraft like dimensions, new blocks and items.
 
 ## How to download
 
