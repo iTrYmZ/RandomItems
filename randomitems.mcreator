@@ -577,12 +577,14 @@
     "description": "A mod adding all of items I want to add ",
     "author": "apixon",
     "websiteURL": "https://iDontHaveAnyWebSiteSorry.Nop",
-    "disableForgeVersionCheck": true,
+    "disableForgeVersionCheck": false,
     "serverSideOnly": false,
     "modPicture": "andomtems_logo",
     "requiredMods": [],
     "dependencies": [],
-    "dependants": [],
+    "dependants": [
+      "ap1x.cheeseitems"
+    ],
     "mcreatorDependencies": [],
     "currentGenerator": "1.12.2",
     "credits": "Made by apixon. Please credit if you\u0027re playing with on a video",

@@ -12,8 +12,12 @@
     "authorList": [
       "apixon"
     ],
-    "dependencies": [],
-    "dependants": [],
+    "dependencies": [
+      "forge@[14.23.5.2768]"
+    ],
+    "dependants": [
+      "ap1x.cheeseitems"
+    ],
     "requiredMods": [],
     "useDependencyInformation": "true"
   }
