@@ -502,22 +502,6 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
-    },
-    {
-      "name": "ArmorFly",
-      "type": "procedure",
-      "sortid": 53,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
     }
   ],
   "variable_elements": [],
@@ -589,20 +573,20 @@
   "workspaceSettings": {
     "modid": "randomitems",
     "modName": "RandomItems",
-    "version": "1.3.2",
+    "version": "1.4.release",
     "description": "A mod adding all of items I want to add ",
-    "author": "iTrYmZ",
+    "author": "apixon",
     "websiteURL": "https://iDontHaveAnyWebSiteSorry.Nop",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
-    "modPicture": "randomitems",
+    "modPicture": "andomtems_logo",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "1.12.2",
-    "credits": "Made by iTrYmZ. Credit if you\u0027re playing with on a video",
-    "modElementsPackage": "itrymz.randomitems",
+    "credits": "Made by apixon. Please credit if you\u0027re playing with on a video",
+    "modElementsPackage": "ap1x.randomitems",
     "lockBaseModFiles": false
   },
   "mcreatorVersion": 202000214217
